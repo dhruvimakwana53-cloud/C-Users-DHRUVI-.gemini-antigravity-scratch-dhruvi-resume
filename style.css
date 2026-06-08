@@ -363,6 +363,13 @@ section {
     margin-bottom: 0.8rem;
 }
 
+.contact-card p {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    word-break: break-all;
+    margin-top: 0.5rem;
+}
+
 .project-content p {
     color: var(--text-muted);
     font-size: 0.95rem;
