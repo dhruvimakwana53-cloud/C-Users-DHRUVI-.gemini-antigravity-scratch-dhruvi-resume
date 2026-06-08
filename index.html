@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhruvi Makwana | Developer Portfolio</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Blobs -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-dot"></div>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="container nav-container">
+            <nav>
+                <a href="#" class="logo">DHRUVI.M</a>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <a href="#contact" class="btn btn-secondary">Hire Me</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero">
+                <div class="hero-content reveal active">
+                    <span class="hero-badge">Available for Internships</span>
+                    <h1>Hello! I'm <span>Dhruvi Makwana</span></h1>
+                    <p>Computer Applications Student passionate about building responsive and user-friendly web applications with React, PHP, and modern databases.</p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn btn-primary">View Projects <i class="fas fa-arrow-right"></i></a>
+                        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="hero-img reveal active">
+                    <img src="./professional_avatar_placeholder.png" alt="Dhruvi Makwana Professional Profile">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Summary Section -->
+    <section id="about" class="container">
+        <div class="section-title reveal">
+            <h2>About Me</h2>
+            <p>Motivated and detail-oriented student with a strong foundation in Web Development.</p>
+        </div>
+        <div class="summary-card reveal">
+            <p>I am a Computer Applications (BCA) student with a passion for web development and database management. I specialize in creating responsive and user-friendly web applications, combining technical knowledge with creativity to solve real-world problems. I am always eager to learn and grow in a professional environment.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-alt">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Technical Skills</h2>
+                <p>Technologies and tools I use to bring ideas to life.</p>
+            </div>
+            <div class="skills-grid reveal">
+                <div class="skill-tag"><i class="fab fa-html5"></i> HTML5</div>
+                <div class="skill-tag"><i class="fab fa-css3-alt"></i> CSS3</div>
+                <div class="skill-tag"><i class="fab fa-js"></i> JavaScript</div>
+                <div class="skill-tag"><i class="fab fa-react"></i> React.js</div>
+                <div class="skill-tag"><i class="fab fa-php"></i> PHP</div>
+                <div class="skill-tag"><i class="fas fa-database"></i> MySQL</div>
+                <div class="skill-tag"><i class="fas fa-leaf"></i> MongoDB</div>
+                <div class="skill-tag"><i class="fab fa-python"></i> Python (Pandas)</div>
+                <div class="skill-tag"><i class="fas fa-chart-line"></i> Data Visualization</div>
+                <div class="skill-tag"><i class="fas fa-users"></i> Team Collaboration</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+        <div class="section-title reveal">
+            <h2>Featured Projects</h2>
+            <p>A selection of my best work across web development and data analysis.</p>
+        </div>
+        <div class="projects-grid reveal">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-img"><i class="fas fa-shopping-cart"></i></div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="tag tag-php">PHP</span>
+                        <span class="tag tag-mail">PHPMailer</span>
+                        <span class="tag tag-sql">MySQL</span>
+                    </div>
+                    <h3>Online Clothing Store (New Look Fashion)</h3>
+                    <p>A full-stack e-commerce solution featuring:</p>
+                    <ul style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem; padding-left: 1rem;">
+                        <li>Advanced Admin Dashboard for Stock Control</li>
+                        <li>Automated Email Notifications (PHPMailer)</li>
+                        <li>Responsive User Interface with Search & Filters</li>
+                    </ul>
+                    <div class="project-links">
+                        <span class="tag" style="background: var(--primary-light); color: var(--primary);">Localhost Verified</span>
+                        <a href="#"><i class="fas fa-code"></i> Project Summary</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-img"><i class="fas fa-plane-departure"></i></div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="tag tag-php">PHP</span>
+                        <span class="tag tag-sql">MySQLi</span>
+                        <span class="tag tag-auth">User Auth</span>
+                    </div>
+                    <h3>Travel Booking System (Transport)</h3>
+                    <p>A secure booking portal with:</p>
+                    <ul style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem; padding-left: 1rem;">
+                        <li>User Registration & Secure Login System</li>
+                        <li>Real-time Booking Management</li>
+                        <li>Database optimized for ticket tracking</li>
+                    </ul>
+                    <div class="project-links">
+                        <span class="tag" style="background: var(--primary-light); color: var(--primary);">Localhost Verified</span>
+                        <a href="#"><i class="fas fa-database"></i> Database Design</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-img"><i class="fas fa-chart-pie"></i></div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="tag tag-python">Python</span>
+                        <span class="tag" style="background:#22c55e">Pandas</span>
+                        <span class="tag" style="background:#f97316">Matplotlib</span>
+                    </div>
+                    <h3>Mobile Sales Data Analysis</h3>
+                    <p>Analytical tool developed on Desktop for:</p>
+                    <ul style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem; padding-left: 1rem;">
+                        <li>Large dataset processing (9M+ records)</li>
+                        <li>Visualizing city-wise performance trends</li>
+                        <li>Identifying top-selling electronic models</li>
+                    </ul>
+                    <div class="project-links">
+                        <span class="tag" style="background: var(--primary-light); color: var(--primary);">CSV Powered</span>
+                        <a href="#"><i class="fas fa-chart-line"></i> Insights</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Code Snippet Reveal (Unique Feature) -->
+        <div class="reveal" style="margin-top: 4rem; background: var(--bg-alt); padding: 2rem; border-radius: var(--radius); border: 1px dashed var(--primary);">
+            <h3 style="margin-bottom: 1rem;"><i class="fas fa-file-code"></i> Development Insight</h3>
+            <p style="font-size: 0.9rem; margin-bottom: 1.5rem;">A snippet of my clean code architecture from the <strong>Clothing Store</strong> project:</p>
+            <pre style="background: #1e293b; color: #f8fafc; padding: 1.5rem; border-radius: 8px; overflow-x: auto; font-family: monospace; font-size: 0.85rem;">
+/* Custom Design System used in php_88 */
+:root {
+  --primary: #7c3aed;  /* Professional Purple */
+  --radius: 16px;      /* Modern Curves */
+  --shadow-lg: 0 16px 48px rgba(124, 58, 237, 0.15);
+}
+
+.glass-card {
+  background: var(--bg-card);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--border);
+}</pre>
+        <!-- Python Machine Learning Insight -->
+        <div class="reveal" style="margin-top: 2rem; background: var(--bg-alt); padding: 2rem; border-radius: var(--radius); border: 1px dashed #10b981;">
+            <h3 style="margin-bottom: 1rem;"><i class="fab fa-python" style="color: #10b981;"></i> Machine Learning & EDA</h3>
+            <p style="font-size: 0.9rem; margin-bottom: 1.5rem;">I automate Data Analysis using Python. Here is my <strong>auto_eda</strong> function from the Mobile Sales project:</p>
+            <pre style="background: #1e293b; color: #10b981; padding: 1.5rem; border-radius: 8px; overflow-x: auto; font-family: monospace; font-size: 0.85rem;">
+def auto_eda(df):
+    print("Shape:", df.shape)
+    print("\nMissing Values:")
+    print(df.isnull().sum())
+    print("\nStatistical Summary:")
+    print(df.describe())
+    
+# Building Regression Models
+model = LinearRegression()
+model.fit(X_train, y_train)</pre>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="bg-alt">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Experience & Internships</h2>
+                <p>My professional journey in the tech industry.</p>
+            </div>
+            <div class="timeline reveal">
+                <!-- Internship -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">May 2024 - June 2024</span>
+                        <h3>Web Development Intern</h3>
+                        <h4>Exotic Infotech, Bharuch</h4>
+                        <p>Developed real-time web projects using HTML, CSS, JS, PHP, and MySQL. Assisted in responsive design and database integration.</p>
+                    </div>
+                </div>
+                <!-- Work -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023 - 2024</span>
+                        <h3>Computer Operator</h3>
+                        <p>Handled data entry, document management, and basic computer operations. Maintained high data accuracy using MS Office tools.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="container">
+        <div class="section-title reveal">
+            <h2>Academic Details</h2>
+            <p>Educational background and achievements.</p>
+        </div>
+        <div class="reveal">
+            <table class="academic-table">
+                <thead>
+                    <tr>
+                        <th>Qualification</th>
+                        <th>Board / University</th>
+                        <th>Year</th>
+                        <th>Result / %</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>BCA (6th Sem)</td>
+                        <td>VNSGU University</td>
+                        <td>2023 - 2026</td>
+                        <td>72.40% (7.24 CGPA)</td>
+                    </tr>
+                    <tr>
+                        <td>HSC (12th)</td>
+                        <td>GSHSEB</td>
+                        <td>2023</td>
+                        <td>84.09%</td>
+                    </tr>
+                    <tr>
+                        <td>SSC (10th)</td>
+                        <td>GSEB</td>
+                        <td>2021</td>
+                        <td>72.89%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Achievements & Personal Section -->
+    <section class="bg-alt">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem;">
+                <div class="reveal">
+                    <h3><i class="fas fa-trophy" style="color: var(--primary);"></i> Achievements</h3>
+                    <ul style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 1rem;">
+                        <li><i class="fas fa-check-circle" style="color: var(--primary);"></i> First Class With Distinction in BCA</li>
+                        <li><i class="fas fa-check-circle" style="color: var(--primary);"></i> Successful completion of 20-day internship</li>
+                        <li><i class="fas fa-check-circle" style="color: var(--primary);"></i> Delivered complex projects within timelines</li>
+                    </ul>
+                </div>
+                <div class="reveal">
+                    <h3><i class="fas fa-user-circle" style="color: var(--primary);"></i> Personal Details</h3>
+                    <ul style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem;">
+                        <li><strong>DOB:</strong> 22 / June / 2005</li>
+                        <li><strong>Nationality:</strong> Indian</li>
+                        <li><strong>Languages:</strong> English, Hindi, Gujarati</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container contact-section">
+        <div class="section-title reveal">
+            <h2>Get In Touch</h2>
+            <p>I'm currently looking for new opportunities. Feel free to reach out!</p>
+        </div>
+        <div class="contact-cards reveal">
+            <div class="contact-card">
+                <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                <h4>Email</h4>
+                <p>dhruvimakwana53@gmail.com</p>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                <h4>Phone</h4>
+                <p>+91 9638742265</p>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <h4>Location</h4>
+                <p>Bholav, Gujarat, India</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="padding: 4rem 0; background: var(--bg-alt); border-top: 1px solid var(--border); text-align: center;">
+        <div class="container">
+            <p>&copy; 2026 Dhruvi Makwana. Built with <i class="fas fa-heart" style="color: #ef4444;"></i> for the web.</p>
+            <div style="margin-top: 1rem; display: flex; justify-content: center; gap: 1.5rem; font-size: 1.5rem; color: var(--text-muted);">
+                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
